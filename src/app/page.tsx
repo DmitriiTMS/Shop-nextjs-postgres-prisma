@@ -1,6 +1,9 @@
+import { Slider } from "@/components/Slider/Slider";
 
 export default function Home() {
   return (
-   <h1>Hi Next Js!</h1>
+    <main className="w-full mx-auto mb-20">
+      <Slider />
+    </main>
   );
 }
